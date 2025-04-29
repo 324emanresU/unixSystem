@@ -1,31 +1,68 @@
-<h1>UNIX 개요</h1>
-<ul>
-  <li>최초로 C 언어로 개발된 운영체제 (1973).</li>
-  <li>AT&T 벨 연구소에서 Ken Thompson과 Dennis Ritchie가 개발 (1969).</li>
-  <li>주요 버전: BSD, System V.</li>
-  <li><strong>Linux</strong>: Linus Torvalds가 개발한 UNIX 유사 오픈소스 운영체제 (1991).</li>
-  <li><strong>특징</strong>: 대화형, 다중 사용자, 다중 작업 지원, 높은 이식성, 계층적 파일 시스템 구조.</li>
-  <li><strong>구조</strong>:
-    <ul>
-      <li><strong>커널(Kernel)</strong>: 자원 및 프로세스 관리.</li>
-      <li><strong>셸(Shell)</strong>: 사용자 명령어 인터페이스 제공.</li>
-      <li><strong>유틸리티(Utilities)</strong>: 개발 및 편집 도구.</li>
-    </ul>
-  </li>
-</ul>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UNIX 개요 및 기본 명령어</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #2c3e50;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 20px;
+    }
+    code {
+      background-color: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: Consolas, monospace;
+    }
+    strong {
+      color: #34495e;
+    }
+  </style>
+</head>
+<body>
 
-<h1>UNIX 시스템 접속 및 명령어</h1>
-<ul>
-  <li><strong>접속</strong>: SSH(<code>ssh 사용자ID@서버IP</code>)와 비밀번호를 이용해 접속.</li>
-  <li><strong>기본 편집</strong>:
-    <ul>
-      <li>Backspace: 문자 삭제</li>
-      <li>Ctrl+W: 단어 삭제</li>
-      <li>Ctrl+U: 줄 전체 삭제</li>
-    </ul>
-  </li>
-  <li><strong>명령어 형식</strong>: <code>명령어 [옵션] [인자]</code> (예: <code>ls -l /tmp</code>)</li>
-  <li><strong>자주 사용하는 명령어</strong>: <code>banner</code>, <code>date</code>, <code>clear</code>, <code>man</code></li>
-  <li><strong>비밀번호 변경</strong>: <code>passwd</code></li>
-  <li><strong>로그아웃</strong>: <code>logout</code>, <code>exit</code> 또는 <code>Ctrl+D</code></li>
-</ul>
+  <h1>UNIX 개요</h1>
+  <ul>
+    <li>최초로 C 언어로 개발된 운영체제 (1973).</li>
+    <li>AT&T 벨 연구소에서 Ken Thompson과 Dennis Ritchie가 개발 (1969).</li>
+    <li>주요 버전: BSD, System V.</li>
+    <li><strong>Linux</strong>: Linus Torvalds가 개발한 UNIX 유사 오픈소스 운영체제 (1991).</li>
+    <li><strong>특징</strong>: 대화형, 다중 사용자, 다중 작업 지원, 높은 이식성, 계층적 파일 시스템 구조.</li>
+    <li><strong>구조</strong>:
+      <ul>
+        <li><strong>커널(Kernel)</strong>: 자원 및 프로세스 관리.</li>
+        <li><strong>셸(Shell)</strong>: 사용자 명령어 인터페이스 제공.</li>
+        <li><strong>유틸리티(Utilities)</strong>: 개발 및 편집 도구.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h1>UNIX 시스템 접속 및 명령어</h1>
+  <ul>
+    <li><strong>접속</strong>: SSH(<code>ssh 사용자ID@서버IP</code>)와 비밀번호를 이용해 접속.</li>
+    <li><strong>기본 편집</strong>:
+      <ul>
+        <li>Backspace: 문자 삭제</li>
+        <li>Ctrl+W: 단어 삭제</li>
+        <li>Ctrl+U: 줄 전체 삭제</li>
+      </ul>
+    </li>
+    <li><strong>명령어 형식</strong>: <code>명령어 [옵션] [인자]</code> (예: <code>ls -l /tmp</code>)</li>
+    <li><strong>자주 사용하는 명령어</strong>: <code>banner</code>, <code>date</code>, <code>clear</code>, <code>man</code></li>
+    <li><strong>비밀번호 변경</strong>: <code>passwd</code></li>
+    <li><strong>로그아웃</strong>: <code>logout</code>, <code>exit</code> 또는 <code>Ctrl+D</code></li>
+  </ul>
+
+</body>
+</html>
