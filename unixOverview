@@ -1,0 +1,31 @@
+<h2>UNIX Overview</h2>
+<ul>
+  <li>First OS developed in C language (1973).</li>
+  <li>Created by Ken Thompson and Dennis Ritchie at AT&T Bell Labs (1969).</li>
+  <li>Major versions: BSD, System V.</li>
+  <li><strong>Linux</strong>: UNIX-like open-source OS by Linus Torvalds (1991).</li>
+  <li><strong>Features</strong>: Interactive, multi-user, multitasking, portable, hierarchical file system.</li>
+  <li><strong>Structure</strong>:
+    <ul>
+      <li><strong>Kernel</strong>: Manages resources and processes.</li>
+      <li><strong>Shell</strong>: User interface for commands.</li>
+      <li><strong>Utilities</strong>: Development and editing tools.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>UNIX System Access & Commands</h2>
+<ul>
+  <li><strong>Access</strong>: Connect via SSH (<code>ssh userID@serverIP</code>) and password.</li>
+  <li><strong>Basic Editing</strong>:
+    <ul>
+      <li>Backspace: delete character</li>
+      <li>Ctrl+W: delete word</li>
+      <li>Ctrl+U: delete line</li>
+    </ul>
+  </li>
+  <li><strong>Command Format</strong>: <code>command [options] [arguments]</code> (e.g., <code>ls -l /tmp</code>)</li>
+  <li><strong>Useful Commands</strong>: <code>banner</code>, <code>date</code>, <code>clear</code>, <code>man</code></li>
+  <li><strong>Change Password</strong>: <code>passwd</code></li>
+  <li><strong>Logout</strong>: <code>logout</code>, <code>exit</code>, or <code>Ctrl+D</code></li>
+</ul>
